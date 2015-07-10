@@ -1,15 +1,14 @@
 #################################################
-#												#
-#	             GoEuro Test APP	            #
-#          ---------------------------          #
-#												#
+#												
+#	             GoEuro Test APP	            
+#          ---------------------------          
+#												
 #################################################
 
 Usage: java -jar GoEuroTest.jar <CITY_NAME>
 
-An application takes a city and retrieves JSON from location WEB API. 
-The retrieved results are saved into CSV file.
-In case no results are retrieved for the specified CITY_NAME, then an empty file with just headers is created.
+An application takes a city and retrieves JSON from the locations WEB API (goeuro.com). 
+The retrieved results are saved into the CSV file. In case no results are retrieved for the specified CITY_NAME, then an empty file with just headers is created.
 
 Features: 
 - Java 7;
